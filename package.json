@@ -1,0 +1,24 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "0.0.9",
+  "description": "Boilerplate to quickly get started with a TypeScript project",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baspeeters/typescript-boilerplate.git"
+  },
+  "keywords": [
+    "typescript",
+    "boilerplate",
+    "template",
+    "minimal",
+    "setup",
+    "quickstart"
+  ],
+  "author": "Bas Peeters <bas@peete.rs>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/baspeeters/typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/baspeeters/typescript-boilerplate#readme"
+}
