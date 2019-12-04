@@ -33,9 +33,8 @@
     "nyc": "^14.1.1",
     "ts-mocha": "^6.0.0",
     "ts-node": "^8.5.4",
+    "tslint": "^5.20.1",
     "typescript": "^3.7.3"
   },
-  "dependencies": {
-    "tslint": "^5.20.1"
-  }
+  "dependencies": {}
 }
