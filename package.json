@@ -3,9 +3,9 @@
   "version": "0.0.9",
   "description": "Boilerplate to quickly get started with a TypeScript project",
   "scripts": {
-    "lint": "$(npm bin)/tslint -c tslint.json ./**/*.ts",
-    "test": "$(npm bin)/ts-mocha test/**/*.spec.ts",
-    "test:coverage": "nyc --reporter=text --reporter=text-summary npm test"
+    "lint": "$(npm bin)/tslint -c tslint.json src/**/*.ts ./test/**/*.ts",
+    "test": "$(npm bin)/mocha --require ts-node/register --recursive ./**/*.spec.ts",
+    "test:coverage": "$(npm bin)/nyc --reporter=text --reporter=text-summary npm run test"
   },
   "repository": {
     "type": "git",

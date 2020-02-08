@@ -1,5 +1,5 @@
 import {expect} from "chai";
-import {Entity} from "../../lib/Entity";
+import {Entity} from "../../src/Entity";
 
 describe("Running tests", () => {
     describe("Entity from library dir", () => {
