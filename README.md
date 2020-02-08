@@ -31,7 +31,8 @@ sed -i 's/typescript-boilerplate/[repo-name]/g' **/*.*
 
 ```shell
 git init
-git commit -a -m "Initial commit"
+git add -A
+git commit -m "Initial commit"
 ```
 
 5. Add remote repository
